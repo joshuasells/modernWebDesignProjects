@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h1>Family Medicine Practice</h1>
+        <h2>Patient Information</h2>
+        <form>
+            <ul>
+                <li>
+                    <label for="firstName">First Name</label>
+                    <input type="text" name="firstName" id="firstName">
+                </li>
+                <li>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" name="lastName" id="lastName">
+                </li>
+                <li>
+                    <label for="birthDate">Birth Date</label>
+                    <input type="date" name="birthDate" id="birthDate">
+                </li>
+                <li>
+                    <label for="dayPhone">Daytime Phone</label>
+                    <input type="tel" name="dayPhone" value="(xxx) xxx-xxxx" id="dayPhone">
+                </li>
+                <li>
+                    <label for="eveningPhone">Evening Phone</label>
+                    <input type="tel" name="eveningPhone" value="(xxx) xxx-xxxx" id="eveningPhone">
+                </li>
+                <li>    
+                    <p>Is this your first time visiting out office?</p>
+                    <input type="radio" name="yes" value="yes"><span>Yes</span>
+                    <input type="radio" name="no" value="no"><span>No</span>
+                </li>    
+            </ul>
+        </form>
+        <h2>Appointment Information</h2>
+        <form>
+            <ul>
+                <li>
+                    <label for="date">Date</label>
+                    <input type="date" name="date" id="date">
+                </li>
+                <li>
+                    <p>Time</p>
+                    <select>
+                        <option>08:00AM</option>
+                        <option>10:00AM</option>
+                        <option>12:00PM</option>
+                        <option>02:00PM</option>
+                        <option>04:00PM</option>
+                    </select>
+                </li>
+                <li>
+                    <p>Please describe the reason for this visit</p>
+                    <textarea></textarea>
+                </li>
+                <li>
+                    <input type="submit">
+                </li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>

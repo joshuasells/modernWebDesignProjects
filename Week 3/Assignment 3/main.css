@@ -1,0 +1,40 @@
+#document {
+    margin: 20px;
+    background-color: ghostwhite;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
+
+.flexcontainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: ghostwhite;
+    width: 100%;
+}
+
+.flexitem {
+    padding: 20px;
+    margin: 20px;
+    background-color: ghostwhite;
+    width: 20%;
+    min-width: 300px;
+    max-width: 400px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+header, footer {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    text-align: center;
+}

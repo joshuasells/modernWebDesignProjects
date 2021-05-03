@@ -1,0 +1,99 @@
+/*------colors-------
+#2f3a32 - dark green
+ghostwhite
+-------------------*/
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1600px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #2f3a32;
+}
+
+nav p {
+    margin-right: auto;
+    padding: 25px;
+    font-weight: 600px;
+    color: ghostwhite;
+}
+
+nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url(background-photo.jpg);
+    background-size: cover;
+    background-position: center
+}
+
+h1 {
+    background-color: #2f3a32;
+    padding: 20px;
+    color: #f9f8fa
+}
+
+caption {
+    padding: 25px;
+    font-size: 25px;
+    background-color: ghostwhite;
+}
+
+table {
+    background-color: ghostwhite;
+    padding: 25px;
+    width: 100%;
+}
+
+tr {
+    height: 100px;
+}
+
+th {
+    text-align: left;
+}
+
+td {
+    padding-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2f3a32;
+    height: 200px;
+}
+
+footer p {
+    font-size: 25px;
+    color: ghostwhite;
+}
+
+footer a {
+    color: ghostwhite;
+}
+
+@media print {
+    nav p, nav a, h1, footer p, footer a {
+        color: black;
+    }
+}
